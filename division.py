@@ -1,13 +1,12 @@
 from numbers import get_valid_input
 
 def division():
-    total = float
     try:
         v1, v2 = get_valid_input()
     except ValueError:
         return
 
-    if (v2 == 0):
+    if v2 == 0:
         print("Attention...Cannot divide numbers by zero")
 
     else:

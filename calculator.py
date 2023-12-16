@@ -19,23 +19,23 @@ def select_operation():
 
         operation = int(input('Enter the desired mathematical operation: '))
 
-        if (operation == 0):
+        if operation == 0:
             print('Exiting calculator. Goodbye!')
             break
 
-        elif (operation == 1):
+        elif operation == 1:
             print("Selected operation... ADDITION")
             addition.addition()
 
-        elif (operation == 2):
+        elif operation == 2:
             print("Selected operation... SUBTRACTION")
             subtraction.subtraction()
 
-        elif (operation == 3):
+        elif operation == 3:
             print('Selected operation... MULTIPLICATION')
             multiplication.multiplication()
 
-        elif (operation == 4):
+        elif operation == 4:
             print('Selected operation... DIVISION')
             division.division()
 
