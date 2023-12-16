@@ -1,6 +1,7 @@
 from numbers import get_valid_input
 
 def addition():
+
     try:
         v1, v2 = get_valid_input()
     except ValueError:
